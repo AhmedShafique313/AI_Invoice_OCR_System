@@ -37,7 +37,7 @@ def OCR(image):
 
 def llm_response(extracted_text):
     """Sends extracted text to Gemini API for structured data extraction."""
-    llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", google_api_key=gemini_api_key)
+    llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", google_api_key='AIzaSyCcGqDgr0okwX3zivih9YRXciiCEixQx1c')
     
     prompt = f"""
     THE EXTRACTED TEXT IS FROM AN INVOICE.
