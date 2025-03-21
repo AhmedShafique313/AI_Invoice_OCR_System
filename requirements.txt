@@ -1,1 +1,7 @@
 streamlit
+numpy
+pillow
+langchain_google_genai
+easyocr
+pandas
+opencv-python
